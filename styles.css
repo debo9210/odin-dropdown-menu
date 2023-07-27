@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navContainer {
+  border: 1px solid red;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.brand {
+  border: 1px solid blue;
+  /* width: 20%; */
+}
+
+.menuContainer {
+  border: 1px solid green;
+  cursor: pointer;
+}
+
+.menu {
+  border: 1px solid orangered;
+  margin-top: 10px;
+  position: absolute;
+  padding: 10px;
+}
+
+.menuHide {
+  display: none;
+}
+
+.menuShow {
+  display: block;
+}
+
+.menuItem {
+  text-align: center;
+  margin: 10px 0;
+}
